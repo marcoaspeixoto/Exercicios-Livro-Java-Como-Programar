@@ -34,13 +34,11 @@ public class Account {
 
         if (balance - withdrawAmount < 0) {
 
-            System.out.print("Withdrawal amount exceeded account balance%n%n");
+            System.out.printf("Withdrawal amount exceeded account balance%n%n");
+            return;
         }
         
         balance = balance - withdrawAmount;
-
-        System.out.printf("%.2f withdrawal successful!%n%n",
-                withdrawAmount);
     }
 
     // method returns the account balance
