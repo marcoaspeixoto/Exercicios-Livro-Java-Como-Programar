@@ -1,7 +1,7 @@
 package capitulo03.exercicio03_13;
 
 public class Empregado {
-    
+
     String nome;
     String sobrenome;
     double salario;
@@ -9,12 +9,12 @@ public class Empregado {
     public Empregado(String nome, String sobrenome, double salario) {
         this.nome = nome;
         this.sobrenome = sobrenome;
-        
+
         if (salario > 0) {
             this.salario = salario;
         }
     }
-    
+
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -24,14 +24,14 @@ public class Empregado {
     }
 
     public void setSalario(double salario) {
-        
+
         if (salario < 0) {
             return;
         }
-        
+
         this.salario = salario;
     }
-    
+
     public String getNome() {
         return nome;
     }
