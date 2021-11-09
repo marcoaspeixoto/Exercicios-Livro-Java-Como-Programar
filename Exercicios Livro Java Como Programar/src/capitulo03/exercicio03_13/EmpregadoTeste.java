@@ -5,7 +5,7 @@ public class EmpregadoTeste {
     public static void main(String[] args) {
         
         Empregado empregado1 = new Empregado("Marco", "Peixoto", 3000);
-        Empregado empregado2 = new Empregado("Geiza", "Silva", 2000);
+        Empregado empregado2 = new Empregado("Geiza", "Silva", -2000);
         
         System.out.printf("Nome............: %s%n", empregado1.getNome());
         System.out.printf("Sobrenome.......: %s%n", empregado1.getSobrenome());
