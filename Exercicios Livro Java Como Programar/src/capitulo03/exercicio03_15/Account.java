@@ -1,4 +1,4 @@
-package exercicio03_15;
+package capitulo03.exercicio03_15;
 
 // Fig. 3.8: Account.java
 // Account class with a double instance variable balance and a constructor

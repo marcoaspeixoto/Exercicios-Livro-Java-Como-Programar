@@ -1,4 +1,4 @@
-package exercicio03_15;
+package capitulo03.exercicio03_15;
 
 // Fig. 3.9: AccountTest.java
 // Inputting and outputting floating-point numbers with Account objects.
