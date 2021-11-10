@@ -62,14 +62,18 @@ public class FrequenciaCardiaca {
         return idade;
     }
     
-    public int calcFreqCardiacaMaxima() {
+    public int calcFreqCardMaxima() {
         int freqCardMaxima = 220 - calcIdade();
         return freqCardMaxima;
     }
     
-    public void calcFreqCardiacaAlvo() {
-        double _50porcento = calcFreqCardiacaMaxima() * 0.50;
-        double _85porcento = calcFreqCardiacaMaxima() * 0.85;
-        System.out.printf("Frenquencia cardíaca alvo: entre %f e %fbpm", _50porcento, _85porcento);
+    public double calc50porcentoFreqCardAlvo() {
+        double _50porcento = calcFreqCardMaxima() * 0.50;
+        return _50porcento;
+    }
+    
+    public double calc85porcentoFreqCardAlvo() {
+        double _85porcento = calcFreqCardMaxima() * 0.85;
+        return _85porcento;
     }
 }
